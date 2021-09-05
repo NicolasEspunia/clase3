@@ -1,13 +1,124 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script src="/metodo.js"></script>
+    <title>FormularioJS</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     
-</body>
-</html>
+    <script src="clase3/crud.js"></script>
+    <!-- <script src="clase3/main.js"></script> -->
+</head>
+<body class="fondo">
+        <!-- <script src="clase3/metodo.js"></script> -->
+        <header >
+            <div>
+                
+                <div >
+                    
+                    
+                    <div >
+                        
+                        <h2>¡¡Calcula el presupuesto de tu ventana!!</h2>
+                    </div>
+                    
+                    <!-- Formulario -->
+                    
+                    <form >
+                        <fieldset class="container" >
+                            <div >
+                                
+                                <legend>Informacion Personal</legend>
+                            </div>
+                            
+                            
+                            <br>
+                            <div class="row mt-5">
+                                
+                                <!-- nombre -->
+                                <div class="form-group col-md-6">
+                                    
+                                    <label for="nombre"><h4>Nombre</h4></label>
+                                    
+                                    <input class="form-control" required placeholder="Nombre" id="nombre" name="nombre" type="text" >
+                                </div>
+                                <br>
+                                <!-- apellido -->
+                                <div class="form-group col-md-6">
+                                    
+                                    <label for="nombre"><h4>Apellido</h4></label>
+                                    
+                                    <input class="form-control" required placeholder="Apellido" id="nombre" name="apellido" type="text">
+                                </div>
+                                
+                            </div>
+                            <div class="row mt-5">
+                                
+                                <!-- nombre -->
+                                <div class="form-group col-md-8">
+                                    
+                                    <label for="direccion"><h4>Dirección</h4></label>
+                                    
+                                    <input class="form-control" required placeholder="Dirección" id="nombre" name="nombre" type="text">
+                                </div>
+                                <br>
+                                <!-- apellido -->
+                                <div class="form-group col-md-4">
+                                    
+                                    <label for="telefono"><h4>Telefono</h4></label>
+                                    
+                                    <input class="form-control" required placeholder="Telefono" id="nombre" name="apellido" type="text">
+                                </div>
+                                
+                            </div>
+                            <hr>
+                            <h3 class="subtitulo">¿Cuánto mide tu ventana?</h3>
+                            <div class=" row mt-5">
+                                <div class="form-group col-md-6">
+                                    
+                                    <label for="Ancho"><h4>Ancho(Centimetros)</h4></label>
+                                    
+                                    <input class="form-control" type="text" >
+                                </div>
+                                <br>
+                                <!-- apellido -->
+                                <div class="form-group col-md-6">
+                                    
+                                    <label for="Alto"><h4>Alto(Centimetros)</h4></label>
+                                    
+                                    <input class="form-control" type="text">
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            
+                            <!-- boton enviar -->
+                            <div >
+                                <div>
+                                    
+                                    
+                                    <button class="row-md-4 btn btn-success m-3" type="submit">Enviar </button>
+                                    
+                                    
+                                    <input class="row-md-4 btn btn-success m-3" type="reset" value="reset">
+                                </div>
+                            </div>
+                            
+                        </fieldset>
+                        <br>
+                        <hr>
+                        
+                        
+                    </form>
+                </div>
+            </div>
+            
+        </header>
+    </body>
+    </html>
